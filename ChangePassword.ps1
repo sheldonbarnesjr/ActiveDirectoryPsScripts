@@ -1,8 +1,8 @@
 # Define the SamAccountName of the user
-$samAccountName = "Jsmith"
+$samAccountName = "INSERT_NAME"
 
 # Specify the new password - ensure it complies with your domain's password policy
-$newPassword = "Pennisare123"
+$newPassword = "Password123!"
 
 # Convert the password to a secure string
 $securePassword = ConvertTo-SecureString -String $newPassword -AsPlainText -Force
